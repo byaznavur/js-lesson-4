@@ -59,39 +59,127 @@
 //! For10. n butun soni berilgan (n > 0). Shu sonning kvadratini quyidagi formula asosida hisoblovchi programma tuzilsin.
 // n^2=1+3+5+... + (2*n-1)
 // Har bir qo'shiluvchidan keyin natijani ekranga chiqarib boring. Natijda ekranda 1 dan n gacha bo'lgan sonlar kvadrati chiqariladi.
-let n = 2;
-let res = 0;
-let sum;
+// let n = 2;
+// let res = 0;
+// let sum;
 
-for (let i = 0; i <= n; i++) {
-  res += i ** (2 * n - 1);
-  sum = i ** (2 * n - 1);
-  console.log(sum);
-}
+// for (let i = 0; i <= n; i++) {
+//   res += i ** (2 * n - 1);
+//   sum = i ** (2 * n - 1);
+//   console.log(sum);
+// }
 
-console.log(res);
-// For11. n butun soni va a haqiqiy soni berilgan (n > 0). a ning n - darajasini aniqlovchi programma tuzilsin.
+// console.log(res);
+//! For11. n butun soni va a haqiqiy soni berilgan (n > 0). a ning n - darajasini aniqlovchi programma tuzilsin.
 // a^n=a*a*a...a;
+// let a = 10;
+// let n = 10,
+//   res = 1;
+// for (let i = 0; i <= n; i++) {
+//   res = a ** i;
 
-// For12. n butun soni va a haqiqiy soni berilgan (n > 0). Bir sikldan foydalanib a ning 1 dan n gacha bo'lgan barcha darajalarini chiqaruvchi programma tuzilsin.
+//   let sum = `${a} ning ${i} chi darajasi = ${res}`;
+//   console.log(sum);
+// }
 
-// For13. n butun soni va a haqiqiy soni berilgan (n > 0). Bir sikldan foydalanib quyidagi a ning 1 dan n gacha bo'lgan barcha darajalarini chiqaruvchi va yig'indini hisoblovchi programma tuzilsin.
+//! For12. n butun soni va a haqiqiy soni berilgan (n > 0). Bir sikldan foydalanib a ning 1 dan n gacha bo'lgan barcha darajalarini chiqaruvchi programma tuzilsin.
+// a^n=a*a*a...a;
+// let a = 10;
+// let n = 10,
+//   res = 1;
+// for (let i = 0; i <= n; i++) {
+//   res = a ** i;
+
+//   sum = `${a} ning ${i} chi darajasi = ${res}`;
+//   console.log(sum);
+// }
+//! For13. n butun soni va a haqiqiy soni berilgan (n > 0). Bir sikldan foydalanib quyidagi a ning 1 dan n gacha bo'lgan barcha darajalarini chiqaruvchi va yig'indini hisoblovchi programma tuzilsin.
 // S = 1+a^1+a^2 + a^3 + ... a^n
+// let a = 10;
+// let n = 10;
+// let m = 0,
+//   res = 1;
+// for (let i = 0; i <= n; i++) {
+//   res = a ** i;
 
-// For14. n butun soni berilgan (n > 0). Bir sikldan foydalangan holda quyidagi yig'indini hisoblovchi programma tuzilsin.
+//   let sum = `${a} ning ${i} chi darajasi = ${res}`;
+//   m += res;
+//   console.log(sum);
+// }
+
+// console.log(m);
+//! For14. n butun soni berilgan (n > 0). Bir sikldan foydalangan holda quyidagi yig'indini hisoblovchi programma tuzilsin.
 // S = 1! + 2! + 3! + ... + n!
 
-// For15. N va K butun sonlari berilgan. Quyidagi yig'indini chiqaruvchi programma tuzilsin.
+// let n = 4;
+// let S = 0;
+// for (let i = 0; i <= n; i++) {
+//   let res = 1;
+//   for (let j = 1; j <= i; j++) {
+//     res *= j;
+//   }
+//   S += res;
+// }
+
+// console.log(S);
+//! For15. N va K butun sonlari berilgan. Quyidagi yig'indini chiqaruvchi programma tuzilsin.
 // S = 1^K + 2^K + ... + N^K
+// let K = 2;
+// let N = 10;
+// let res = 0;
+// for (let i = 0; i <= N; i++) {
+//   res += i ** K;
+// }
 
-// For16. N butun soni berilgan. Quyidagi yig'indini chiqaruvchi programma tuzilsin.
+// console.log(res);
+//! For16. N butun soni berilgan. Quyidagi yig'indini chiqaruvchi programma tuzilsin.'
 // S = 1^1 + 2^2 + … + N^N
+// let N = 2;
+// let res = 0;
+// for (let i = 1; i <= N; i++) {
+//   res += i ** i;
+// }
+// console.log(res);
+//! For17. A va B butun soni berilgan (A < B). A va B sonlari orasidagi barcha butun sonlarni chiqaruvchi programma tuzilsin. Bunda A soni 1 marta, (A + 1) soni 2 marta chiqariladi va xokazo.
+let A = 1;
+let B = 10;
+for (let i = A; i <= B; i++) {
+  for (let j = 1; j <= i; j++) {
+    console.log(i);
+  }
+}
+//! For18. Sonning barcha bo’luvchilarini, ularning sonini va yig’indisini chiqaruvchi dastur tuzing.
 
-// For17. A va B butun soni berilgan (A < B). A va B sonlari orasidagi barcha butun sonlarni chiqaruvchi programma tuzilsin. Bunda A soni 1 marta, (A + 1) soni 2 marta chiqariladi va xokazo.
+// let num = 3,
+//   res = 0,
+//   sum = 0;
+// for (let i = 0; i <= num; i++) {
+//   if (num % i == 0) {
+//     res += i;
+//     sum++;
+//   }
+// }
 
-// For18. Sonning barcha bo’luvchilarini, ularning sonini va yig’indisini chiqaruvchi dastur tuzing.
+// console.log(res, sum);
+//! For19. n butun soni berilgan (n > 1). N sonini tub yoki tub emasligini aniqlovchi programma tuzilsin.
+let num = 10,
+  res = 0,
+  sum = 0,
+  n;
 
-// For19. n butun soni berilgan (n > 1). N sonini tub yoki tub emasligini aniqlovchi programma tuzilsin.
+for (let i = 0; i <= num; i++) {
+  if (num % i == 0) {
+    res += i;
+    sum++;
+    if (sum > 2) {
+      n = "Tub son emas";
+    }
+  } else {
+    n = "Tub son ";
+  }
+}
+
+console.log(`${num} ni ${sum} ta bo'luvchisi bor va ${n}`);
 
 // For20. Sonlarni quyidagi tartibda chiqaruvchi dastur tuzing. N = 5 bo’lganda,
 // 1
@@ -99,6 +187,15 @@ console.log(res);
 // 1 2 3
 // 1 2 3 4
 // 1 2 3 4 5
+
+// let N = 5;
+// for (let i = 1; i <= N; i++) {
+//   let res = " ";
+//   for (let j = 1; j <= i; j++) {
+//     res += j + " ";
+//   }
+//   console.log(res);
+// }
 
 // While1. A va B butun musbat sonlari berilgan (A> B). A usunlikdagi kesmada maksimal darajada B kesma joylashtirilgan. A kesmaning bo'sh qismini aniqlovchi programma tuzilsin. Ko'paytirish va bo'lish amallarini ishlatmang.
 
