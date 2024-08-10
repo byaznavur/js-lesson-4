@@ -73,7 +73,7 @@
 //   }
 // }
 
-/*------ while1 -----*/
+//!*!------ while1 -----*/
 
 // let N = 57;
 // let K = 8;
@@ -96,7 +96,7 @@
 // console.log(count);
 // console.log(N);
 
-/*------ while2 -----*/
+//!*!------ while2 -----*/
 
 // let n = 64;
 // let count = 0;
@@ -114,4 +114,4 @@
 
 // console.log(count);
 
-/*------ while3 -----*/
+//!*!------ while3 -----*/
