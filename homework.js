@@ -346,15 +346,15 @@
 // }
 
 //! While10. n butun soni berilgan (n > 1). N sonini tub yoki tub emasligini aniqlovchi programma tuzilsin.
-let n = 9;
+// let n = 9;
 
-while (n > 0) {
-  let digit = n % 10;
-  if (digit % 2 === 0) {
-    console.log(digit + " Tub son emas");
-    break;
-  } else {
-    console.log(digit + " Tub son");
-    break;
-  }
-}
+// while (n > 0) {
+//   let digit = n % 10;
+//   if (digit % 2 === 0) {
+//     console.log(digit + " Tub son emas");
+//     break;
+//   } else {
+//     console.log(digit + " Tub son");
+//     break;
+//   }
+// }
